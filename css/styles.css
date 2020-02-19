@@ -4,7 +4,7 @@
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .logo1{
@@ -16,6 +16,8 @@
 .imagem{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 .cont-img{
@@ -42,6 +44,8 @@
 
 #features{
   padding:7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box{
@@ -96,6 +100,16 @@
 
 .pricing-column{
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+  .imagem  {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
 }
 
 h1{
